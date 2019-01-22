@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#99e699">
+
+
+
+            <TextView
+                android:id="@+id/lbl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender : "
+                android:padding="16dp"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#33cc33"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:padding="16dp"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#99e699"
+                />
+
+
+
+            <TextView
+                android:id="@+id/lbl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title : "
+                android:padding="16dp"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+
+                android:background="#33cc33"
+
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:padding="16dp"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#99e699"
+                />
+
+
+            <TextView
+                android:id="@+id/lbl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First : "
+                android:padding="16dp"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#33cc33"
+                />
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#99e699"
+                android:padding="16dp"/>
+
+
+
+            <TextView
+                android:id="@+id/lbl4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="last : "
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#33cc33"
+                android:padding="16dp"/>
+
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:padding="16dp"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#99e699"
+                />
+
+
+
+
+            <TextView
+                android:id="@+id/lbl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="street : "
+                android:padding="16dp"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#33cc33"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:padding="16dp"
+                android:background="#99e699"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                />
+
+
+
+            <TextView
+                android:id="@+id/lbl6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="city : "
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#33cc33"
+                android:padding="16dp"/>
+
+
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#99e699"
+                android:padding="16dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/lbl7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="state : "
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#33cc33"
+
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#99e699"
+                android:padding="16dp"/>
+
+
+
+            <TextView
+                android:id="@+id/lbl8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email: "
+                android:textSize="30dp"
+                android:fontFamily="monospace"
+                android:background="#33cc33"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="30dp"
+                android:background="#99e699"
+                android:fontFamily="monospace"
+
+                android:padding="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
